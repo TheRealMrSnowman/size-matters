@@ -1,0 +1,6 @@
+{
+    "text.config.sizematters-server.title": "Size Matters Config",
+    "text.config.sizematters-server.option.min_height": "Minimum Player Height",
+    "text.config.sizematters-server.option.max_height": "Maximum Player Height",
+    "text.config.sizematters-server.option.uuid_dependant": "Use player UUID to determine height"
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sizematters",
+	"version": "${version}",
+	"name": "sizematters",
+	"description": "Sets connecting players to a random height using Pehkui",
+	"authors": [
+		"TheRealMrSnowman"
+	],
+	"contact": {
+		"homepage": "https://discord.com/users/1091514604548534323"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sizematters/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"snowman.sizematters.Sizematters"
+		],
+		"client": [
+			"snowman.sizematters.SizemattersClient"
+		]
+	},
+	"mixins": [
+		"sizematters.mixins.json",
+		{
+			"config": "sizematters.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "https://modrinth.com/mod/pehkui"
+	}
+}
