@@ -15,14 +15,13 @@ There are also options for having player height be dependent on a player's UUID,
 ![Technical Info](https://cdn.modrinth.com/data/cached_images/1c2e3592134456fc6d8bb3f8e60b98d0fdcfa639.png)
 When joining a server the mod:
 1. Checks to see if the player already has data (if no continue if yes skip to step 4)
-2. Generates a random number between 0.7 and 1.3 (clamped to the 2nd decimal)
+2. Generates a random number between 0.3 and -0.3 (clamped to the 2nd decimal)
 3. Saves that number in the players unique user data (sizematters.size_data:player_height)
-4. Applies the number to the players height and width
+4. Applies the number as a modifier to the base player height
 
 ![context break](https://cdn.modrinth.com/data/cached_images/a83711ea404ca28bcc5bc82334da3848c952dc27.png)
 \
 ![Requirements](https://cdn.modrinth.com/data/cached_images/c9927dc908799f8c9ab4ec53940642cb3c9d42de.png)
 While this mod isn't required on the client side it is dependant on and requires:
-- [Pehkui](https://modrinth.com/mod/pehkui) (Client and Server)
 - [Fabric API](https://modrinth.com/mod/fabric-api) (Client and Server)
 - [owo-lib](https://modrinth.com/mod/owo-lib) (Server Only)

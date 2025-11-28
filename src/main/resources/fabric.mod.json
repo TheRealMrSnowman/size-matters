@@ -3,7 +3,7 @@
 	"id": "sizematters",
 	"version": "${version}",
 	"name": "sizematters",
-	"description": "Sets connecting players to a random height using Pehkui",
+	"description": "Sets connecting players to a random height using Minecraft's attribute system.",
 	"authors": [
 		"TheRealMrSnowman"
 	],
@@ -30,11 +30,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.20.1",
+		"minecraft": "~1.21.2",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "https://modrinth.com/mod/pehkui"
 	}
 }
