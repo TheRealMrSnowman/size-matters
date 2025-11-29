@@ -23,5 +23,5 @@ When joining a server the mod:
 \
 ![Requirements](https://cdn.modrinth.com/data/cached_images/c9927dc908799f8c9ab4ec53940642cb3c9d42de.png)
 While this mod isn't required on the client side it is dependant on and requires:
-- [Fabric API](https://modrinth.com/mod/fabric-api) (Client and Server)
+- [Fabric API](https://modrinth.com/mod/fabric-api) (Server Only)
 - [owo-lib](https://modrinth.com/mod/owo-lib) (Server Only)
